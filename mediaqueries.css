@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -9,6 +9,10 @@
   #contact,
   #projects {
     height: fit-content;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
 }
 
@@ -81,6 +85,10 @@
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
   .experience-sub-title {
     font-size: 1.25rem;
